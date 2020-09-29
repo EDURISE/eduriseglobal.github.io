@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Iso | Corporate Bootstrap template</title>
+    <title>EDURISE GLOBAL</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -21,7 +21,7 @@
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/style.red.min.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/favicon.png">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
@@ -30,84 +30,32 @@
   </head>
   <body>
     <!-- NAVBAR-->
-    <header class="header fixed-top active">
+    <header class="header fixed-top header-animated">
       <nav class="navbar navbar-expand-lg navbar-light py-3">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="..." width="80"></a>
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="img/favicon.png" alt="..." width="80"></a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <!-- Link--><a class="nav-link" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <!-- Link--><a class="nav-link" href="about.html">About us</a>
+			  <li class="nav-item mr-2">
+                <!-- Link--><a class="nav-link" href="https://www.townscript.com/o/edurise-global" target="_blank">Workshops</a>
               </li>
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                <div class="dropdown-menu mt-3" aria-labelledby="navbarDropdownMenuLink"><a class="dropdown-item" href="index.html">Homepage</a><a class="dropdown-item" href="about.html">About us</a><a class="dropdown-item" href="contact.html">Contact us</a></div>
+			   <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+                <div class="dropdown-menu mt-3" aria-labelledby="navbarDropdownMenuLink"><a class="dropdown-item" href="https://youtube.com/c/eduriseglobal" target="_blank">Videos</a><a class="dropdown-item" href="https://medium.com/edurise-global" target="_blank">Blog</a></div>
               </li>
               <li class="nav-item mr-2">
                 <!-- Link--><a class="nav-link active" href="contact.html">Contact us</a>
               </li>
               <li class="nav-item">             
-                <button class="btn btn-primary" type="button" data-target="#quoteForm" data-toggle="modal">Get a quote</button>
+                <a href="https://wa.me/+919578819078" target="_blank" ><button class="btn btn-primary" type="button">Talk to Us!</button></a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <!-- GET a QUOTE MODAL -->
-    <div class="modal fade" id="quoteForm" tabindex="-1" role="dialog" aria-labelledby="quoteForm" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-        <div class="modal-content p-md-3">
-          <div class="modal-header">
-            <h4 class="modal-title">Request a <span class="text-primary">quote</span></h4>
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-          </div>
-          <div class="modal-body">
-            <form action="#">
-              <div class="row">
-                <div class="form-group col-lg-6">
-                  <label class="font-weight-bold text-small" for="firstname">First name<span class="text-primary ml-1">&#42;</span></label>
-                  <input class="form-control" id="firstname" type="text" placeholder="Enter your first name" required>
-                </div>
-                <div class="form-group col-lg-6">
-                  <label class="font-weight-bold text-small" for="lastname">Last name<span class="text-primary ml-1">&#42;</span></label>
-                  <input class="form-control" id="lastname" type="text" placeholder="Enter your last name" required>
-                </div>
-                <div class="form-group col-lg-12">
-                  <label class="font-weight-bold text-small" for="email">Email address<span class="text-primary ml-1">&#42;</span></label>
-                  <input class="form-control" id="email" type="email" placeholder="Enter your email address" required>
-                </div>
-                <div class="form-group col-lg-6">
-                  <label class="font-weight-bold text-small" for="phone">Phone number <small class="small text-gray">optional</small></label>
-                  <input class="form-control" id="phone" type="tel" placeholder="Enter your phone number">
-                </div>
-                <div class="form-group col-lg-6">
-                  <label class="font-weight-bold text-small" for="projecttype">Project type<span class="text-primary ml-1">&#42;</span></label>
-                  <input class="form-control" id="projecttype" type="text" placeholder="Enter your project type" required>
-                </div>
-                <div class="form-group col-lg-6">
-                  <label class="font-weight-bold text-small" for="budget">Estimated budget<span class="text-primary ml-1">&#42;</span></label>
-                  <input class="form-control" id="budget" type="text" placeholder="Enter your estimated budget" required><small class="form-text text-muted">Project budget will be on <span class="text-dark">$</span></small>
-                </div>
-                <div class="form-group col-lg-6">
-                  <label class="font-weight-bold text-small" for="timeframe">Time frame<span class="text-primary ml-1">&#42;</span></label>
-                  <input class="form-control" id="timeframe" type="text" placeholder="Maximum time for the project" required>
-                </div>
-                <div class="form-group col-lg-12">
-                  <label class="font-weight-bold text-small" for="projectdetail">Project details<span class="text-primary ml-1">&#42;</span></label>
-                  <textarea class="form-control" id="projectdetail" rows="5" placeholder="Provide a short brief about your project" required></textarea>
-                </div>
-                <div class="form-group col-lg-12">
-                  <button class="btn btn-primary" type="submit">Submit your request</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- HERO SECTION-->
     <section class="hero with-pattern py-5 bg-light">
       <div class="container py-5 my-5">
@@ -115,7 +63,7 @@
           <div class="col-md-7 mx-auto text-center">
             <p class="h6 text-uppercase text-primary">Contact us</p>
             <h1>We’d love to hear from you</h1>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <p class="text-muted">Please reach out to us if you need any information related to EduRise.</p>
           </div>
         </div>
       </div>
@@ -134,8 +82,8 @@
                 </div>
                 <h3 class="h4">Phone</h3>
                 <ul class="list-unstyled mb-0">
-                  <li class="text-muted"><a class="reset-anchor" href="tel:+001234567890">+ 00 123 456 7890</a></li>
-                  <li class="text-muted"><a class="reset-anchor" href="tel:+001234567890">+ 00 123 456 7890</a></li>
+                  <li class="text-muted"><a class="reset-anchor" href="tel:+001234567890">(91) 97511 40903</a></li>
+                  <li class="text-muted"><a class="reset-anchor" href="tel:+001234567890">(91) 95788 19078</a></li>
                 </ul>
               </div>
               <div class="col-md-4 mb-4 mb-lg-0">
@@ -146,8 +94,8 @@
                 </div>
                 <h3 class="h4">Support</h3>
                 <ul class="list-unstyled mb-0">
-                  <li class="text-muted"><a class="reset-anchor" href="mailto:iso@company.com">Iso@company.com</a></li>
-                  <li class="text-muted"><a class="reset-anchor" href="mailto:iso@support.com">Iso@corporate.com</a></li>
+                  <li class="text-muted"><a class="reset-anchor" href="mailto:iso@company.com">aravindhan@eduriseglobal.com</a></li>
+                  <li class="text-muted"><a class="reset-anchor" href="mailto:iso@support.com">abdul@eduriseglobal.com</a></li>
                 </ul>
               </div>
               <div class="col-md-4">
@@ -158,7 +106,7 @@
                 </div>
                 <h3 class="h4">Location</h3>
                 <ul class="list-unstyled mb-0 px-5">
-                  <li class="text-muted"><a class="reset-anchor" href="#">1234 New Ave, New York, NY00235, USA</a></li>
+                  <li class="text-muted"><a class="reset-anchor" href="#">Chennai India</a></li>
                 </ul>
               </div>
             </div>
@@ -171,8 +119,8 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-7 mx-auto text-center mb-5">
-            <h2>Looking for a excellent Business idea?</h2>
-            <p class="text-muted">Seamlessly deliver pandemic e-services and next-generation initiatives.</p><a class="btn btn-primary" href="#"><i class="fas fa-globe-americas mr-2"></i>Get directions</a>
+            <h2>Would you like to #TeachforEduRise?</h2>
+            <p class="text-muted">We are looking for part-time trainers to formulate content in Malayalam,Marathi,Hindi,Kannada,French & German</p><a class="btn btn-primary" href="mailto:aravindhan@eduriseglobal.com?cc=abdul@eduriseglobal.com, saiteja@eduriseglobal.com&subject=TeachforEduRise"><i class="fas fa-globe-americas mr-2"></i>Get in touch with us</a>
           </div>
         </div>
         <div class="row">
@@ -200,24 +148,28 @@
         </div>
       </div>
     </section>
-    <!-- Map Section -->
-    <section class="map" id="map"></section>
     <footer class="map-bg">
       <div class="container py-5 border-bottom">
         <div class="row pt-5">
-          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0"><img class="mb-3" src="img/logo.svg" alt="" width="80">
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0"><img class="mb-3" src="img/favicon.png" alt="" width="80">
             <ul class="list-unstyled text-muted">
-              <li><a class="reset-anchor text-small" href="mailto:Iso@company.com">Iso@company.com</a></li>
-              <li><a class="reset-anchor text-small" href="tel:+975478985">+97 5478 985</a></li>
+              <li><a class="reset-anchor text-small" href="mailto:aravindhan@eduriseglobal.com">aravindhan@eduriseglobal.com</a></li>
+              <li><a class="reset-anchor text-small" href="tel:+91 97511 40903">+91 97511 40903</a></li>
             </ul>
             <ul class="list-inline text-muted">
-              <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li class="list-inline-item"><a class="reset-anchor" href="https://www.facebook.com/eduriseglobal"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a class="reset-anchor" href="https://twitter.com/eduriseglobal"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a class="reset-anchor" href="https://www.linkedin.com/company/edurise-global/"><i class="fab fa-linkedin"></i></a></li>
+			  <li class="list-inline-item"><a class="reset-anchor" href="https://www.instagram.com/edurise.global/"><i class="fab fa-instagram"></i></a></li>
+			  <li class="list-inline-item"><a class="reset-anchor" href="https://medium.com/edurise-global"><i class="fab fa-medium"></i></a></li>
+              <li class="list-inline-item"><a class="reset-anchor" href=" https://www.youtube.com/channel/UCYzuobaZWV1j9w9EYinIMNw"><i class="fab fa-youtube"></i></a></li>
+
+
             </ul>
           </div>
-          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-            <h4>About us</h4>
+		  
+           <!--  <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h4>Latest Posts</h4>
             <ul class="list-unstyled text-muted mb-0">
               <li class="mb-1"><a class="text-small reset-anchor" href="#">Support center</a></li>
               <li class="mb-1"><a class="text-small reset-anchor" href="#">Customer support</a></li>
@@ -226,7 +178,7 @@
               <li class="mb-1"><a class="text-small reset-anchor" href="#">popular campaign</a></li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+       <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
             <h4>Our information</h4>
             <ul class="list-unstyled text-muted mb-0">
               <li class="mb-1"><a class="text-small reset-anchor" href="#">Support center</a></li>
@@ -245,13 +197,13 @@
               <li class="mb-1"><a class="text-small reset-anchor" href="#">copyright</a></li>
               <li class="mb-1"><a class="text-small reset-anchor" href="#">popular campaign</a></li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="container py-4">           
         <div class="row text-center">
           <div class="col-lg-6 p-lg-0 text-lg-left">
-            <p class="text-muted text-small mb-0">© 2020 Your company, All Rights Reserved.</p>
+            <p class="text-muted text-small mb-0">© 2020 EDURISE GLOBAL, All Rights Reserved.</p>
           </div>
           <div class="col-lg-6 p-lg-0 text-lg-right">
             <p class="text-muted text-small mb-0">Template designed by <a class="text-primary reset-anchor" href="https://bootstraptemple.com/p/corporate">Bootstrap Temple</a></p>
@@ -268,7 +220,6 @@
     <script src="vendor/modal-video/js/modal-video.min.js"></script>
     <script src="vendor/leaflet/leaflet.js"></script>
     <script src="js/front.js"></script>
-    <script src="js/leaflet.js"></script>
     <script>
       // ------------------------------------------------------- //
       //   Inject SVG Sprite - 
